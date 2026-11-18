@@ -33,8 +33,8 @@ module demux1to2 (
 );
     assign Y0 = (~S) & D;
     assign Y1 = S & D;
-endmodule
-```
+endmodule'
+
 ## **Testbench Program
 
 // Instantiate the 2:1 Multiplexer
@@ -77,6 +77,8 @@ initial begin
     #10 $finish;
 end
 endmodule
+
+    
   
 
 ## Truth Table
